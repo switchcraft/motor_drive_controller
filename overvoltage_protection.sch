@@ -1,0 +1,1012 @@
+EESchema Schematic File Version 4
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Avago
+LIBS:Mornsun
+LIBS:motor_drive_controller-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Diode:BAT54S D?
+U 1 1 5BEC7C4A
+P 2800 2800
+AR Path="/5BC6C7DF/5BD4392E/5BEC7C4A" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC7C4A" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC7C4A" Ref="D?"  Part="1" 
+F 0 "D?" V 2846 2888 50  0000 L CNN
+F 1 "BAT54S" V 2755 2888 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2875 2925 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 2680 2800 50  0001 C CNN
+	1    2800 2800
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BEC7C51
+P 2800 3150
+AR Path="/5BC6C7DF/5BD4392E/5BEC7C51" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC7C51" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC7C51" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 2900 50  0001 C CNN
+F 1 "GND" H 2805 2977 50  0000 C CNN
+F 2 "" H 2800 3150 50  0001 C CNN
+F 3 "" H 2800 3150 50  0001 C CNN
+	1    2800 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3150 2800 3100
+$Comp
+L power:+5V #PWR?
+U 1 1 5BEC7C58
+P 2800 2450
+AR Path="/5BC6C7DF/5BD4392E/5BEC7C58" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC7C58" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC7C58" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 2300 50  0001 C CNN
+F 1 "+5V" H 2815 2623 50  0000 C CNN
+F 2 "" H 2800 2450 50  0001 C CNN
+F 3 "" H 2800 2450 50  0001 C CNN
+	1    2800 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2450 2800 2500
+$Comp
+L Device:R R?
+U 1 1 5BEC7C5F
+P 3050 2200
+AR Path="/5BC6C7DF/5BEC7C5F" Ref="R?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC7C5F" Ref="R?"  Part="1" 
+F 0 "R?" V 3150 2200 50  0000 C CNN
+F 1 "10R" V 3050 2200 50  0000 C CNN
+F 2 "" V 2980 2200 50  0001 C CNN
+F 3 "~" H 3050 2200 50  0001 C CNN
+	1    3050 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 2200 3850 2200
+$Comp
+L Device:R R?
+U 1 1 5BEC7C67
+P 3050 2050
+AR Path="/5BC6C7DF/5BEC7C67" Ref="R?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC7C67" Ref="R?"  Part="1" 
+F 0 "R?" V 2950 2050 50  0000 C CNN
+F 1 "10R" V 3050 2050 50  0000 C CNN
+F 2 "" V 2980 2050 50  0001 C CNN
+F 3 "~" H 3050 2050 50  0001 C CNN
+	1    3050 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 2050 3850 2050
+$Comp
+L Diode:BAT54S D?
+U 1 1 5BEC7C6F
+P 2150 2800
+AR Path="/5BC6C7DF/5BD4392E/5BEC7C6F" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC7C6F" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC7C6F" Ref="D?"  Part="1" 
+F 0 "D?" V 2196 2888 50  0000 L CNN
+F 1 "BAT54S" V 2105 2888 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2225 2925 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 2030 2800 50  0001 C CNN
+	1    2150 2800
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BEC7C76
+P 2150 3150
+AR Path="/5BC6C7DF/5BD4392E/5BEC7C76" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC7C76" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC7C76" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 2900 50  0001 C CNN
+F 1 "GND" H 2155 2977 50  0000 C CNN
+F 2 "" H 2150 3150 50  0001 C CNN
+F 3 "" H 2150 3150 50  0001 C CNN
+	1    2150 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3150 2150 3100
+$Comp
+L power:+5V #PWR?
+U 1 1 5BEC7C7D
+P 2150 2450
+AR Path="/5BC6C7DF/5BD4392E/5BEC7C7D" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC7C7D" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC7C7D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 2300 50  0001 C CNN
+F 1 "+5V" H 2165 2623 50  0000 C CNN
+F 2 "" H 2150 2450 50  0001 C CNN
+F 3 "" H 2150 2450 50  0001 C CNN
+	1    2150 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2450 2150 2500
+Wire Wire Line
+	2600 2800 2550 2800
+Wire Wire Line
+	2550 2800 2550 2200
+Connection ~ 2550 2200
+Wire Wire Line
+	2550 2200 2900 2200
+Wire Wire Line
+	1750 2050 1900 2050
+Wire Wire Line
+	1750 2200 2550 2200
+Wire Wire Line
+	1950 2800 1900 2800
+Wire Wire Line
+	1900 2800 1900 2050
+Connection ~ 1900 2050
+Wire Wire Line
+	1900 2050 2900 2050
+Text HLabel 1750 2050 0    59   Input ~ 0
+PWM_UT
+Text HLabel 1750 2200 0    59   Input ~ 0
+PWM_UB
+$Comp
+L Diode:BAT54S D?
+U 1 1 5BEC91B4
+P 2800 4250
+AR Path="/5BC6C7DF/5BD4392E/5BEC91B4" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC91B4" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC91B4" Ref="D?"  Part="1" 
+F 0 "D?" V 2846 4338 50  0000 L CNN
+F 1 "BAT54S" V 2755 4338 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2875 4375 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 2680 4250 50  0001 C CNN
+	1    2800 4250
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BEC91BB
+P 2800 4600
+AR Path="/5BC6C7DF/5BD4392E/5BEC91BB" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC91BB" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC91BB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 4350 50  0001 C CNN
+F 1 "GND" H 2805 4427 50  0000 C CNN
+F 2 "" H 2800 4600 50  0001 C CNN
+F 3 "" H 2800 4600 50  0001 C CNN
+	1    2800 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4600 2800 4550
+$Comp
+L power:+5V #PWR?
+U 1 1 5BEC91C2
+P 2800 3900
+AR Path="/5BC6C7DF/5BD4392E/5BEC91C2" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC91C2" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC91C2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 3750 50  0001 C CNN
+F 1 "+5V" H 2815 4073 50  0000 C CNN
+F 2 "" H 2800 3900 50  0001 C CNN
+F 3 "" H 2800 3900 50  0001 C CNN
+	1    2800 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3900 2800 3950
+$Comp
+L Device:R R?
+U 1 1 5BEC91C9
+P 3050 3650
+AR Path="/5BC6C7DF/5BEC91C9" Ref="R?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC91C9" Ref="R?"  Part="1" 
+F 0 "R?" V 3150 3650 50  0000 C CNN
+F 1 "10R" V 3050 3650 50  0000 C CNN
+F 2 "" V 2980 3650 50  0001 C CNN
+F 3 "~" H 3050 3650 50  0001 C CNN
+	1    3050 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 3650 3850 3650
+$Comp
+L Device:R R?
+U 1 1 5BEC91D1
+P 3050 3500
+AR Path="/5BC6C7DF/5BEC91D1" Ref="R?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC91D1" Ref="R?"  Part="1" 
+F 0 "R?" V 2950 3500 50  0000 C CNN
+F 1 "10R" V 3050 3500 50  0000 C CNN
+F 2 "" V 2980 3500 50  0001 C CNN
+F 3 "~" H 3050 3500 50  0001 C CNN
+	1    3050 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 3500 3850 3500
+$Comp
+L Diode:BAT54S D?
+U 1 1 5BEC91D9
+P 2150 4250
+AR Path="/5BC6C7DF/5BD4392E/5BEC91D9" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC91D9" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC91D9" Ref="D?"  Part="1" 
+F 0 "D?" V 2196 4338 50  0000 L CNN
+F 1 "BAT54S" V 2105 4338 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2225 4375 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 2030 4250 50  0001 C CNN
+	1    2150 4250
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BEC91E0
+P 2150 4600
+AR Path="/5BC6C7DF/5BD4392E/5BEC91E0" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC91E0" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC91E0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 4350 50  0001 C CNN
+F 1 "GND" H 2155 4427 50  0000 C CNN
+F 2 "" H 2150 4600 50  0001 C CNN
+F 3 "" H 2150 4600 50  0001 C CNN
+	1    2150 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4600 2150 4550
+$Comp
+L power:+5V #PWR?
+U 1 1 5BEC91E7
+P 2150 3900
+AR Path="/5BC6C7DF/5BD4392E/5BEC91E7" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC91E7" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC91E7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 3750 50  0001 C CNN
+F 1 "+5V" H 2165 4073 50  0000 C CNN
+F 2 "" H 2150 3900 50  0001 C CNN
+F 3 "" H 2150 3900 50  0001 C CNN
+	1    2150 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3900 2150 3950
+Wire Wire Line
+	2600 4250 2550 4250
+Wire Wire Line
+	2550 4250 2550 3650
+Connection ~ 2550 3650
+Wire Wire Line
+	2550 3650 2900 3650
+Wire Wire Line
+	1750 3500 1900 3500
+Wire Wire Line
+	1750 3650 2550 3650
+Wire Wire Line
+	1950 4250 1900 4250
+Wire Wire Line
+	1900 4250 1900 3500
+Connection ~ 1900 3500
+Wire Wire Line
+	1900 3500 2900 3500
+Text HLabel 1750 3500 0    59   Input ~ 0
+PWM_VT
+Text HLabel 1750 3650 0    59   Input ~ 0
+PWM_VB
+$Comp
+L Diode:BAT54S D?
+U 1 1 5BEC9963
+P 2800 5650
+AR Path="/5BC6C7DF/5BD4392E/5BEC9963" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC9963" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC9963" Ref="D?"  Part="1" 
+F 0 "D?" V 2846 5738 50  0000 L CNN
+F 1 "BAT54S" V 2755 5738 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2875 5775 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 2680 5650 50  0001 C CNN
+	1    2800 5650
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BEC996A
+P 2800 6000
+AR Path="/5BC6C7DF/5BD4392E/5BEC996A" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC996A" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC996A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 5750 50  0001 C CNN
+F 1 "GND" H 2805 5827 50  0000 C CNN
+F 2 "" H 2800 6000 50  0001 C CNN
+F 3 "" H 2800 6000 50  0001 C CNN
+	1    2800 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 6000 2800 5950
+$Comp
+L power:+5V #PWR?
+U 1 1 5BEC9971
+P 2800 5300
+AR Path="/5BC6C7DF/5BD4392E/5BEC9971" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC9971" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC9971" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 5150 50  0001 C CNN
+F 1 "+5V" H 2815 5473 50  0000 C CNN
+F 2 "" H 2800 5300 50  0001 C CNN
+F 3 "" H 2800 5300 50  0001 C CNN
+	1    2800 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5300 2800 5350
+$Comp
+L Device:R R?
+U 1 1 5BEC9978
+P 3050 5050
+AR Path="/5BC6C7DF/5BEC9978" Ref="R?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC9978" Ref="R?"  Part="1" 
+F 0 "R?" V 3150 5050 50  0000 C CNN
+F 1 "10R" V 3050 5050 50  0000 C CNN
+F 2 "" V 2980 5050 50  0001 C CNN
+F 3 "~" H 3050 5050 50  0001 C CNN
+	1    3050 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 5050 3850 5050
+$Comp
+L Device:R R?
+U 1 1 5BEC9980
+P 3050 4900
+AR Path="/5BC6C7DF/5BEC9980" Ref="R?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC9980" Ref="R?"  Part="1" 
+F 0 "R?" V 2950 4900 50  0000 C CNN
+F 1 "10R" V 3050 4900 50  0000 C CNN
+F 2 "" V 2980 4900 50  0001 C CNN
+F 3 "~" H 3050 4900 50  0001 C CNN
+	1    3050 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 4900 3850 4900
+$Comp
+L Diode:BAT54S D?
+U 1 1 5BEC9988
+P 2150 5650
+AR Path="/5BC6C7DF/5BD4392E/5BEC9988" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC9988" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC9988" Ref="D?"  Part="1" 
+F 0 "D?" V 2196 5738 50  0000 L CNN
+F 1 "BAT54S" V 2105 5738 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2225 5775 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 2030 5650 50  0001 C CNN
+	1    2150 5650
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BEC998F
+P 2150 6000
+AR Path="/5BC6C7DF/5BD4392E/5BEC998F" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC998F" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC998F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 5750 50  0001 C CNN
+F 1 "GND" H 2155 5827 50  0000 C CNN
+F 2 "" H 2150 6000 50  0001 C CNN
+F 3 "" H 2150 6000 50  0001 C CNN
+	1    2150 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6000 2150 5950
+$Comp
+L power:+5V #PWR?
+U 1 1 5BEC9996
+P 2150 5300
+AR Path="/5BC6C7DF/5BD4392E/5BEC9996" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC9996" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BEC9996" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 5150 50  0001 C CNN
+F 1 "+5V" H 2165 5473 50  0000 C CNN
+F 2 "" H 2150 5300 50  0001 C CNN
+F 3 "" H 2150 5300 50  0001 C CNN
+	1    2150 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5300 2150 5350
+Wire Wire Line
+	2600 5650 2550 5650
+Wire Wire Line
+	2550 5650 2550 5050
+Connection ~ 2550 5050
+Wire Wire Line
+	2550 5050 2900 5050
+Wire Wire Line
+	1750 4900 1900 4900
+Wire Wire Line
+	1750 5050 2550 5050
+Wire Wire Line
+	1950 5650 1900 5650
+Wire Wire Line
+	1900 5650 1900 4900
+Connection ~ 1900 4900
+Wire Wire Line
+	1900 4900 2900 4900
+Text HLabel 1750 4900 0    59   Input ~ 0
+PWM_WT
+Text HLabel 1750 5050 0    59   Input ~ 0
+PWM_WB
+Text Notes 1050 1000 0    217  ~ 43
+Overvoltage protection
+Text HLabel 3850 2050 2    59   Output ~ 0
+PWM_UT_OUT
+Text HLabel 3850 2200 2    59   Output ~ 0
+PWM_UB_OUT
+Text HLabel 3850 3500 2    59   Output ~ 0
+PWM_VT_OUT
+Text HLabel 3850 3650 2    59   Output ~ 0
+PWM_VB_OUT
+Text HLabel 3850 4900 2    59   Output ~ 0
+PWM_WT_OUT
+Text HLabel 3850 5050 2    59   Output ~ 0
+PWM_WB_OUT
+$Comp
+L Diode:BAT54S D?
+U 1 1 5BECEAE6
+P 6550 2800
+AR Path="/5BC6C7DF/5BD4392E/5BECEAE6" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEAE6" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEAE6" Ref="D?"  Part="1" 
+F 0 "D?" V 6596 2888 50  0000 L CNN
+F 1 "BAT54S" V 6505 2888 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6625 2925 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 6430 2800 50  0001 C CNN
+	1    6550 2800
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BECEAEC
+P 6550 3150
+AR Path="/5BC6C7DF/5BD4392E/5BECEAEC" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEAEC" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEAEC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6550 2900 50  0001 C CNN
+F 1 "GND" H 6555 2977 50  0000 C CNN
+F 2 "" H 6550 3150 50  0001 C CNN
+F 3 "" H 6550 3150 50  0001 C CNN
+	1    6550 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3150 6550 3100
+$Comp
+L power:+5V #PWR?
+U 1 1 5BECEAF3
+P 6550 2450
+AR Path="/5BC6C7DF/5BD4392E/5BECEAF3" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEAF3" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEAF3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6550 2300 50  0001 C CNN
+F 1 "+5V" H 6565 2623 50  0000 C CNN
+F 2 "" H 6550 2450 50  0001 C CNN
+F 3 "" H 6550 2450 50  0001 C CNN
+	1    6550 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2450 6550 2500
+$Comp
+L Device:R R?
+U 1 1 5BECEAFA
+P 6800 2200
+AR Path="/5BC6C7DF/5BECEAFA" Ref="R?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEAFA" Ref="R?"  Part="1" 
+F 0 "R?" V 6900 2200 50  0000 C CNN
+F 1 "10R" V 6800 2200 50  0000 C CNN
+F 2 "" V 6730 2200 50  0001 C CNN
+F 3 "~" H 6800 2200 50  0001 C CNN
+	1    6800 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 2200 7600 2200
+$Comp
+L Device:R R?
+U 1 1 5BECEB01
+P 6800 2050
+AR Path="/5BC6C7DF/5BECEB01" Ref="R?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB01" Ref="R?"  Part="1" 
+F 0 "R?" V 6700 2050 50  0000 C CNN
+F 1 "10R" V 6800 2050 50  0000 C CNN
+F 2 "" V 6730 2050 50  0001 C CNN
+F 3 "~" H 6800 2050 50  0001 C CNN
+	1    6800 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 2050 7600 2050
+$Comp
+L Diode:BAT54S D?
+U 1 1 5BECEB08
+P 5900 2800
+AR Path="/5BC6C7DF/5BD4392E/5BECEB08" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB08" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB08" Ref="D?"  Part="1" 
+F 0 "D?" V 5946 2888 50  0000 L CNN
+F 1 "BAT54S" V 5855 2888 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5975 2925 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 5780 2800 50  0001 C CNN
+	1    5900 2800
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BECEB0E
+P 5900 3150
+AR Path="/5BC6C7DF/5BD4392E/5BECEB0E" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB0E" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB0E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 2900 50  0001 C CNN
+F 1 "GND" H 5905 2977 50  0000 C CNN
+F 2 "" H 5900 3150 50  0001 C CNN
+F 3 "" H 5900 3150 50  0001 C CNN
+	1    5900 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3150 5900 3100
+$Comp
+L power:+5V #PWR?
+U 1 1 5BECEB15
+P 5900 2450
+AR Path="/5BC6C7DF/5BD4392E/5BECEB15" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB15" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB15" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 2300 50  0001 C CNN
+F 1 "+5V" H 5915 2623 50  0000 C CNN
+F 2 "" H 5900 2450 50  0001 C CNN
+F 3 "" H 5900 2450 50  0001 C CNN
+	1    5900 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2450 5900 2500
+Wire Wire Line
+	6350 2800 6300 2800
+Wire Wire Line
+	6300 2800 6300 2200
+Connection ~ 6300 2200
+Wire Wire Line
+	6300 2200 6650 2200
+Wire Wire Line
+	5500 2050 5650 2050
+Wire Wire Line
+	5500 2200 6300 2200
+Wire Wire Line
+	5700 2800 5650 2800
+Wire Wire Line
+	5650 2800 5650 2050
+Connection ~ 5650 2050
+Wire Wire Line
+	5650 2050 6650 2050
+Text HLabel 5500 2050 0    59   Input ~ 0
+PWM_AT
+Text HLabel 5500 2200 0    59   Input ~ 0
+PWM_AB
+$Comp
+L Diode:BAT54S D?
+U 1 1 5BECEB28
+P 6550 4250
+AR Path="/5BC6C7DF/5BD4392E/5BECEB28" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB28" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB28" Ref="D?"  Part="1" 
+F 0 "D?" V 6596 4338 50  0000 L CNN
+F 1 "BAT54S" V 6505 4338 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6625 4375 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 6430 4250 50  0001 C CNN
+	1    6550 4250
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BECEB2E
+P 6550 4600
+AR Path="/5BC6C7DF/5BD4392E/5BECEB2E" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB2E" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB2E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6550 4350 50  0001 C CNN
+F 1 "GND" H 6555 4427 50  0000 C CNN
+F 2 "" H 6550 4600 50  0001 C CNN
+F 3 "" H 6550 4600 50  0001 C CNN
+	1    6550 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4600 6550 4550
+$Comp
+L power:+5V #PWR?
+U 1 1 5BECEB35
+P 6550 3900
+AR Path="/5BC6C7DF/5BD4392E/5BECEB35" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB35" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB35" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6550 3750 50  0001 C CNN
+F 1 "+5V" H 6565 4073 50  0000 C CNN
+F 2 "" H 6550 3900 50  0001 C CNN
+F 3 "" H 6550 3900 50  0001 C CNN
+	1    6550 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3900 6550 3950
+$Comp
+L Device:R R?
+U 1 1 5BECEB3C
+P 6800 3650
+AR Path="/5BC6C7DF/5BECEB3C" Ref="R?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB3C" Ref="R?"  Part="1" 
+F 0 "R?" V 6900 3650 50  0000 C CNN
+F 1 "10R" V 6800 3650 50  0000 C CNN
+F 2 "" V 6730 3650 50  0001 C CNN
+F 3 "~" H 6800 3650 50  0001 C CNN
+	1    6800 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 3650 7600 3650
+$Comp
+L Device:R R?
+U 1 1 5BECEB43
+P 6800 3500
+AR Path="/5BC6C7DF/5BECEB43" Ref="R?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB43" Ref="R?"  Part="1" 
+F 0 "R?" V 6700 3500 50  0000 C CNN
+F 1 "10R" V 6800 3500 50  0000 C CNN
+F 2 "" V 6730 3500 50  0001 C CNN
+F 3 "~" H 6800 3500 50  0001 C CNN
+	1    6800 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 3500 7600 3500
+$Comp
+L Diode:BAT54S D?
+U 1 1 5BECEB4A
+P 5900 4250
+AR Path="/5BC6C7DF/5BD4392E/5BECEB4A" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB4A" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB4A" Ref="D?"  Part="1" 
+F 0 "D?" V 5946 4338 50  0000 L CNN
+F 1 "BAT54S" V 5855 4338 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5975 4375 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 5780 4250 50  0001 C CNN
+	1    5900 4250
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BECEB50
+P 5900 4600
+AR Path="/5BC6C7DF/5BD4392E/5BECEB50" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB50" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB50" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 4350 50  0001 C CNN
+F 1 "GND" H 5905 4427 50  0000 C CNN
+F 2 "" H 5900 4600 50  0001 C CNN
+F 3 "" H 5900 4600 50  0001 C CNN
+	1    5900 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4600 5900 4550
+$Comp
+L power:+5V #PWR?
+U 1 1 5BECEB57
+P 5900 3900
+AR Path="/5BC6C7DF/5BD4392E/5BECEB57" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB57" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB57" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 3750 50  0001 C CNN
+F 1 "+5V" H 5915 4073 50  0000 C CNN
+F 2 "" H 5900 3900 50  0001 C CNN
+F 3 "" H 5900 3900 50  0001 C CNN
+	1    5900 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3900 5900 3950
+Wire Wire Line
+	6350 4250 6300 4250
+Wire Wire Line
+	6300 4250 6300 3650
+Connection ~ 6300 3650
+Wire Wire Line
+	6300 3650 6650 3650
+Wire Wire Line
+	5500 3500 5650 3500
+Wire Wire Line
+	5500 3650 6300 3650
+Wire Wire Line
+	5700 4250 5650 4250
+Wire Wire Line
+	5650 4250 5650 3500
+Connection ~ 5650 3500
+Wire Wire Line
+	5650 3500 6650 3500
+Text HLabel 5500 3500 0    59   Input ~ 0
+PWM_BT
+Text HLabel 5500 3650 0    59   Input ~ 0
+PWM_BB
+$Comp
+L Diode:BAT54S D?
+U 1 1 5BECEB6A
+P 6550 5650
+AR Path="/5BC6C7DF/5BD4392E/5BECEB6A" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB6A" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB6A" Ref="D?"  Part="1" 
+F 0 "D?" V 6596 5738 50  0000 L CNN
+F 1 "BAT54S" V 6505 5738 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6625 5775 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 6430 5650 50  0001 C CNN
+	1    6550 5650
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BECEB70
+P 6550 6000
+AR Path="/5BC6C7DF/5BD4392E/5BECEB70" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB70" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB70" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6550 5750 50  0001 C CNN
+F 1 "GND" H 6555 5827 50  0000 C CNN
+F 2 "" H 6550 6000 50  0001 C CNN
+F 3 "" H 6550 6000 50  0001 C CNN
+	1    6550 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 6000 6550 5950
+$Comp
+L power:+5V #PWR?
+U 1 1 5BECEB77
+P 6550 5300
+AR Path="/5BC6C7DF/5BD4392E/5BECEB77" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB77" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB77" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6550 5150 50  0001 C CNN
+F 1 "+5V" H 6565 5473 50  0000 C CNN
+F 2 "" H 6550 5300 50  0001 C CNN
+F 3 "" H 6550 5300 50  0001 C CNN
+	1    6550 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 5300 6550 5350
+$Comp
+L Device:R R?
+U 1 1 5BECEB7E
+P 6800 5050
+AR Path="/5BC6C7DF/5BECEB7E" Ref="R?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB7E" Ref="R?"  Part="1" 
+F 0 "R?" V 6900 5050 50  0000 C CNN
+F 1 "10R" V 6800 5050 50  0000 C CNN
+F 2 "" V 6730 5050 50  0001 C CNN
+F 3 "~" H 6800 5050 50  0001 C CNN
+	1    6800 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 5050 7600 5050
+$Comp
+L Device:R R?
+U 1 1 5BECEB85
+P 6800 4900
+AR Path="/5BC6C7DF/5BECEB85" Ref="R?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB85" Ref="R?"  Part="1" 
+F 0 "R?" V 6700 4900 50  0000 C CNN
+F 1 "10R" V 6800 4900 50  0000 C CNN
+F 2 "" V 6730 4900 50  0001 C CNN
+F 3 "~" H 6800 4900 50  0001 C CNN
+	1    6800 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 4900 7600 4900
+$Comp
+L Diode:BAT54S D?
+U 1 1 5BECEB8C
+P 5900 5650
+AR Path="/5BC6C7DF/5BD4392E/5BECEB8C" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB8C" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB8C" Ref="D?"  Part="1" 
+F 0 "D?" V 5946 5738 50  0000 L CNN
+F 1 "BAT54S" V 5855 5738 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5975 5775 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 5780 5650 50  0001 C CNN
+	1    5900 5650
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BECEB92
+P 5900 6000
+AR Path="/5BC6C7DF/5BD4392E/5BECEB92" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB92" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB92" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 5750 50  0001 C CNN
+F 1 "GND" H 5905 5827 50  0000 C CNN
+F 2 "" H 5900 6000 50  0001 C CNN
+F 3 "" H 5900 6000 50  0001 C CNN
+	1    5900 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 6000 5900 5950
+$Comp
+L power:+5V #PWR?
+U 1 1 5BECEB99
+P 5900 5300
+AR Path="/5BC6C7DF/5BD4392E/5BECEB99" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BECEB99" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BECEB99" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 5150 50  0001 C CNN
+F 1 "+5V" H 5915 5473 50  0000 C CNN
+F 2 "" H 5900 5300 50  0001 C CNN
+F 3 "" H 5900 5300 50  0001 C CNN
+	1    5900 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5300 5900 5350
+Wire Wire Line
+	6350 5650 6300 5650
+Wire Wire Line
+	6300 5650 6300 5050
+Connection ~ 6300 5050
+Wire Wire Line
+	6300 5050 6650 5050
+Wire Wire Line
+	5500 4900 5650 4900
+Wire Wire Line
+	5500 5050 6300 5050
+Wire Wire Line
+	5700 5650 5650 5650
+Wire Wire Line
+	5650 5650 5650 4900
+Connection ~ 5650 4900
+Wire Wire Line
+	5650 4900 6650 4900
+Text HLabel 5500 4900 0    59   Input ~ 0
+PWM_CT
+Text HLabel 5500 5050 0    59   Input ~ 0
+PWM_CB
+Text HLabel 7600 2050 2    59   Output ~ 0
+PWM_AT_OUT
+Text HLabel 7600 2200 2    59   Output ~ 0
+PWM_AB_OUT
+Text HLabel 7600 3500 2    59   Output ~ 0
+PWM_BT_OUT
+Text HLabel 7600 3650 2    59   Output ~ 0
+PWM_BB_OUT
+Text HLabel 7600 4900 2    59   Output ~ 0
+PWM_CT_OUT
+Text HLabel 7600 5050 2    59   Output ~ 0
+PWM_CB_OUT
+$Comp
+L Diode:BAT54S D?
+U 1 1 5BED2AE6
+P 9200 6500
+AR Path="/5BC6C7DF/5BD4392E/5BED2AE6" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BED2AE6" Ref="D?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BED2AE6" Ref="D?"  Part="1" 
+F 0 "D?" V 9246 6588 50  0000 L CNN
+F 1 "BAT54S" V 9155 6588 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9275 6625 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 9080 6500 50  0001 C CNN
+	1    9200 6500
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BED2AED
+P 9200 6850
+AR Path="/5BC6C7DF/5BD4392E/5BED2AED" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BED2AED" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BED2AED" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9200 6600 50  0001 C CNN
+F 1 "GND" H 9205 6677 50  0000 C CNN
+F 2 "" H 9200 6850 50  0001 C CNN
+F 3 "" H 9200 6850 50  0001 C CNN
+	1    9200 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 6850 9200 6800
+$Comp
+L power:+5V #PWR?
+U 1 1 5BED2AF4
+P 9200 6150
+AR Path="/5BC6C7DF/5BD4392E/5BED2AF4" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BED2AF4" Ref="#PWR?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BED2AF4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9200 6000 50  0001 C CNN
+F 1 "+5V" H 9215 6323 50  0000 C CNN
+F 2 "" H 9200 6150 50  0001 C CNN
+F 3 "" H 9200 6150 50  0001 C CNN
+	1    9200 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 6150 9200 6200
+$Comp
+L Device:R R?
+U 1 1 5BED2AFB
+P 9450 5900
+AR Path="/5BC6C7DF/5BED2AFB" Ref="R?"  Part="1" 
+AR Path="/5BC6C7DF/5BEC787E/5BED2AFB" Ref="R?"  Part="1" 
+F 0 "R?" V 9550 5900 50  0000 C CNN
+F 1 "10R" V 9450 5900 50  0000 C CNN
+F 2 "" V 9380 5900 50  0001 C CNN
+F 3 "~" H 9450 5900 50  0001 C CNN
+	1    9450 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 5900 9850 5900
+Wire Wire Line
+	9000 6500 8950 6500
+Wire Wire Line
+	8950 6500 8950 5900
+Connection ~ 8950 5900
+Wire Wire Line
+	8950 5900 9300 5900
+Wire Wire Line
+	8700 5900 8950 5900
+Text HLabel 8700 5900 0    59   Input ~ 0
+PWM_brake_chopper
+Text HLabel 9850 5900 2    59   Output ~ 0
+PWM_brake_chopper_OUT
+$EndSCHEMATC
